@@ -1,0 +1,24 @@
+/* Basic styling for the clickable image container */
+#clickable-image {
+    text-align: center; /* Center the image on the page */
+    margin-top: 50px;
+}
+
+/* Style the link containing the image */
+#clickable-image a {
+    display: inline-block; /* Make the link act as a block for styling */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style the image itself */
+#clickable-image img {
+    width: 300px; /* Adjust image size */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Hover effect for the clickable image */
+#clickable-image a:hover img {
+    transform: scale(1.05); /* Slightly increase the image size */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Intensify the shadow */
+}
